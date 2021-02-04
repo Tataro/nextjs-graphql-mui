@@ -20,7 +20,7 @@ export default function Index() {
   const { data, loading, error } = useQuery(ViewerQuery)
   const viewer = data?.viewer
 
-  console.log("data", data)
+  // console.log("data", data)
   return (
     <Container maxWidth="sm">
       <Box my={4}>
